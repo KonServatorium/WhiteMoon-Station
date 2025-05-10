@@ -24,7 +24,7 @@
 	COMPANY_NAME_BLACKSTEEL_FOUNDATION,
 	COMPANY_NAME_NAKAMURA_ENGINEERING_MODSUITS
 	)
-	pod_type = /obj/structure/closet/supplypod/bluespacepod
+	pod_type = /obj/structure/closet/supplypod/back_to_station
 
 /obj/machinery/computer/cargo/express/interdyne/emag_act(mob/user, obj/item/card/emag/emag_card)
 	if(user)
