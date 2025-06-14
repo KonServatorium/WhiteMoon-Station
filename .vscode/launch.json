@@ -83,10 +83,7 @@
 			"request": "launch",
 			"program": "${command:dreammaker.returnDreamDaemonPath}",
 			"cwd": "${workspaceRoot}",
-			"args": [
-				"${command:dreammaker.getFilenameDmb}",
-				"-trusted"
-			],
+			"args": ["${command:dreammaker.getFilenameDmb}", "-trusted"],
 			"preLaunchTask": "Build All"
 		},
 		{
@@ -95,10 +92,7 @@
 			"request": "launch",
 			"program": "${command:dreammaker.returnDreamDaemonPath}",
 			"cwd": "${workspaceRoot}",
-			"args": [
-				"${command:dreammaker.getFilenameDmb}",
-				"-trusted"
-			],
+			"args": ["${command:dreammaker.getFilenameDmb}", "-trusted"],
 			"preLaunchTask": "Build All (low memory mode)"
 		},
 		{
