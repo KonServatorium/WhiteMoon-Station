@@ -740,10 +740,6 @@
 /obj/structure/lattice/catwalk/mining,
 /turf/open/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"by" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
-/turf/open/floor/plating/reinforced,
-/area/ruin/space/has_grav/bubbers/persistance/engineering/atmospherics)
 "bz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on,
 /obj/structure/grille,
@@ -5187,9 +5183,6 @@
 	dir = 4;
 	name = "Persistence Cargo Tech"
 	},
-/obj/structure/fluff/paper/stack{
-	dir = 4
-	},
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/bubbers/persistance/service/dorms/cargo)
 "kN" = (
@@ -5822,6 +5815,9 @@
 /area/ruin/space/has_grav/bubbers/persistance/sec/prison)
 "me" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/atmospherics/pipe/layer_manifold/green{
+	dir = 4
+	},
 /turf/open/floor/plating/reinforced,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/gas)
 "mf" = (
@@ -6161,7 +6157,7 @@
 /obj/machinery/door/window/survival_pod/left/directional/east{
 	name = "Atmos Access Hatch"
 	},
-/turf/open/floor/plating/reinforced,
+/turf/open/floor/engine/co2,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/gas)
 "mT" = (
 /obj/structure/emergency_shield/cult/weak{
@@ -6388,16 +6384,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/utilities)
-"nu" = (
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium{
-	polarizer_id = "burnchamberbed_w"
-	},
-/obj/machinery/door/poddoor{
-	id = "turbine_shutters_bed"
-	},
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/bubbers/persistance/service/dorms/engineering)
 "nv" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/mmi/posibrain/sphere{
@@ -8724,7 +8710,10 @@
 /area/ruin/space/has_grav/bubbers/persistance/med)
 "sr" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
-/turf/open/floor/plating/reinforced,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 8
+	},
+/turf/open/floor/engine/co2,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/gas)
 "ss" = (
 /obj/machinery/duct,
@@ -10922,7 +10911,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/light_switch/directional/east,
-/obj/effect/turf_decal/siding/wideplating_new/corner,
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
 	},
@@ -16437,11 +16425,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
-/obj/item/clothing/shoes/workboots/mining{
-	pixel_x = 9;
-	pixel_y = 9
-	},
-/obj/structure/fluff/paper/stack,
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/bubbers/persistance/service/dorms/cargo)
 "HD" = (
@@ -18525,26 +18508,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/effect/mapping_helpers/apc/cut_AI_wire,
-/obj/effect/mapping_helpers/apc/full_charge,
-/obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/machinery/light/small/red/dim/directional/south{
 	pixel_x = -16
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wideplating_new/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wideplating_new/corner,
 /obj/effect/turf_decal/siding/dark,
-/obj/effect/turf_decal/siding/dark/corner{
-	dir = 4
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
 	},
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/floor/iron/dark/textured_corner{
 	dir = 1
 	},
@@ -23656,10 +23629,6 @@
 /obj/machinery/xenoarch/researcher,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/mining)
-"WS" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/open/floor/plating/reinforced,
-/area/ruin/space/has_grav/bubbers/persistance/engineering/atmospherics)
 "WT" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /obj/effect/turf_decal/siding/dark,
@@ -24052,6 +24021,7 @@
 /turf/closed/wall/r_wall/syndicate/cruiser,
 /area/ruin/space/has_grav/bubbers/persistance/command/admiral)
 "XP" = (
+/obj/effect/turf_decal/vg_decals/atmos/mix,
 /turf/open/floor/plating/reinforced,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/gas)
 "XQ" = (
@@ -25634,7 +25604,7 @@ sb
 sb
 sb
 sb
-nu
+jr
 JZ
 qA
 AY
@@ -25844,7 +25814,7 @@ sb
 sb
 sb
 sb
-WS
+sb
 Sy
 AQ
 VG
@@ -25913,7 +25883,7 @@ sb
 sb
 sb
 sb
-by
+sb
 Ev
 AQ
 VG
