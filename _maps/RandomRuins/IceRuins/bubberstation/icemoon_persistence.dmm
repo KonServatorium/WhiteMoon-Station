@@ -3794,12 +3794,6 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/bubbers/persistance/service)
-"ii" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
-/obj/structure/cable,
-/turf/closed/wall/r_wall/syndicate/cruiser,
-/area/ruin/space/has_grav/bubbers/persistance/service/dorms/engineering)
 "ij" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -5659,8 +5653,6 @@
 /area/ruin/space/has_grav/bubbers/persistance/sec/holding)
 "lZ" = (
 /obj/effect/spawner/xmastree,
-/obj/machinery/airalarm/directional/south,
-/obj/effect/mapping_helpers/airalarm/syndicate_access,
 /obj/structure/railing{
 	color = "#36373a"
 	},
@@ -6944,6 +6936,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/structure/detectiveboard/directional/east,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/bubbers/persistance/service/diner)
 "oq" = (
@@ -10420,7 +10413,6 @@
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/bubbers/persistance/sec/interrogation)
 "vF" = (
-/obj/item/reagent_containers/cup/glass/mug/coco,
 /obj/structure/table/wood/fancy/green,
 /obj/structure/marker_beacon/olive,
 /turf/open/floor/glass/reinforced/plasma,
@@ -11593,6 +11585,9 @@
 	pixel_x = -3;
 	pixel_y = 6
 	},
+/obj/item/gun/ballistic/revolver/mateba,
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/a357,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/bubbers/persistance/command/liason)
 "xV" = (
@@ -11623,7 +11618,6 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "xZ" = (
-/obj/item/storage/backpack/satchel/flat,
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/bubbers/persistance/sec/armory)
@@ -12525,15 +12519,14 @@
 /area/ruin/space/has_grav/bubbers/persistance/sec/interrogation)
 "zD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/structure/sign/painting/library{
-	pixel_x = 32
-	},
 /obj/effect/turf_decal/siding/wideplating_new/dark/end{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 4
 	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/bubbers/persistance/service/diner)
 "zG" = (
@@ -12714,6 +12707,7 @@
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "Aa" = (
 /obj/effect/turf_decal/shuttle/exploration/weapons,
+/obj/item/storage/backpack/satchel/flat,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/bubbers/persistance/sec/armory)
 "Ac" = (
@@ -13133,9 +13127,6 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "persistence_int"
-	},
 /turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/ruin/space/has_grav/bubbers/persistance/sec/interrogation)
 "Bg" = (
@@ -13686,6 +13677,9 @@
 	pixel_y = -1
 	},
 /obj/structure/marker_beacon/burgundy,
+/obj/item/gun/ballistic/revolver/mateba,
+/obj/item/ammo_box/a357,
+/obj/item/ammo_box/a357,
 /turf/open/floor/carpet/red,
 /area/ruin/space/has_grav/bubbers/persistance/command/admiral)
 "Ck" = (
@@ -13963,6 +13957,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/bubbers/persistance/command/admiral)
+"CN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/structure/cable,
+/turf/closed/wall/r_wall/syndicate/cruiser,
+/area/ruin/space/has_grav/bubbers/persistance/service/dorms/engineering)
 "CP" = (
 /obj/item/stack/sheet/mineral/wood/fifty{
 	pixel_x = 5;
@@ -16561,6 +16561,9 @@
 	color = "#5d341f";
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal/cabinet{
+	pixel_x = 1
+	},
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/bubbers/persistance/service/shower)
 "HZ" = (
@@ -18447,9 +18450,6 @@
 	pixel_y = -24
 	},
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/food/cake/birthday/energy{
-	pixel_y = 5
-	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/bubbers/persistance/service/kitchen)
 "Mi" = (
@@ -24716,7 +24716,6 @@
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "Zl" = (
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
-/obj/effect/spawner/random/food_or_drink/dinner,
 /obj/machinery/light/dim/directional/east,
 /obj/structure/table/wood/fancy/green,
 /obj/structure/marker_beacon/olive,
@@ -25909,7 +25908,7 @@ EF
 vl
 Bk
 Bk
-ii
+CN
 Bk
 CV
 uQ
