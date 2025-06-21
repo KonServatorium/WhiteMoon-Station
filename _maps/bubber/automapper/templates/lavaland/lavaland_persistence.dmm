@@ -1645,7 +1645,7 @@
 	pixel_y = -34
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "du" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -3275,7 +3275,7 @@
 	},
 /obj/structure/sink/directional/east,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "he" = (
 /obj/effect/turf_decal/vg_decals/atmos/nitrogen,
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible/layer2{
@@ -4360,7 +4360,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "jg" = (
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/iron/dark/textured_large,
@@ -4409,8 +4409,17 @@
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "jq" = (
-/turf/closed/wall/r_wall/syndicate/cruiser,
-/area/ruin/space/has_grav/bubbers/dauntless/command/vault)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/turf_decal/siding/wideplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/bubbers/persistance/service/diner)
 "jr" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/bubbers/persistance/service/dorms/engineering)
@@ -6906,7 +6915,7 @@
 	id_tag = "syndishiprest1"
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "ox" = (
 /obj/structure/frame/machine/secured,
 /obj/structure/sign/poster/official/plasma_effects/directional/north,
@@ -10034,7 +10043,7 @@
 	id_tag = "syndishiprest2"
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "uX" = (
 /obj/effect/turf_decal/bot_red,
 /obj/effect/turf_decal/box/red,
@@ -15946,7 +15955,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "Gx" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/structure/disposalpipe/segment{
@@ -16312,8 +16321,10 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/bubbers/persistance/sec/armory)
 "Hl" = (
-/turf/closed/wall/r_wall/syndicate/cruiser,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/turf/open/floor/plating/reinforced,
+/area/ruin/space/has_grav/bubbers/persistance/engineering/atmospherics)
 "Hn" = (
 /obj/structure/sign/poster/contraband/hacking_guide/directional/south,
 /obj/effect/turf_decal/siding/dark{
@@ -17598,7 +17609,6 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/bubbers/persistance/engineering)
 "Kh" = (
@@ -20276,7 +20286,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "PU" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -20781,7 +20791,7 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "QZ" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/effect/turf_decal/trimline/dark_blue/line,
@@ -21636,12 +21646,11 @@
 	pixel_x = -28
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "SN" = (
 /turf/open/floor/glass/reinforced/plasma,
 /area/ruin/space/has_grav/bubbers/persistance/service/diner)
 "SR" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/plasticflaps,
 /turf/open/floor/plating/reinforced,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/atmospherics)
@@ -23299,7 +23308,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
-/obj/machinery/door/airlock/atmos,
 /obj/machinery/door/airlock/atmos/glass,
 /turf/open/floor/plating/reinforced,
 /area/ruin/space/has_grav/bubbers/persistance/service/hydro)
@@ -23345,7 +23353,6 @@
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/bubbers/persistance/engineering)
 "Wi" = (
@@ -24588,7 +24595,7 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav/bubbers/persistance/service/shower)
+/area/ruin/space/has_grav/bubbers/persistance/service/lockers)
 "YV" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -25460,7 +25467,7 @@ aT
 gV
 Kf
 yZ
-JW
+Hl
 Yn
 sb
 sb
@@ -27666,7 +27673,7 @@ TJ
 Ku
 gc
 wq
-KW
+jq
 yN
 Ni
 SN
@@ -28076,7 +28083,7 @@ hh
 oK
 oe
 jf
-Xo
+ZA
 lR
 ML
 bC
@@ -28145,7 +28152,7 @@ Tb
 kw
 ev
 dt
-Xo
+ZA
 Yk
 Fa
 CX
@@ -28214,7 +28221,7 @@ ZA
 ZA
 ZA
 Gw
-Xo
+ZA
 IZ
 Qn
 Ts
@@ -28351,7 +28358,7 @@ tG
 Ok
 Xo
 ow
-Hl
+RN
 uW
 JU
 tU
@@ -28420,7 +28427,7 @@ li
 xh
 Xo
 QY
-Hl
+RN
 YU
 JU
 RA
@@ -28488,9 +28495,9 @@ nn
 fC
 EY
 Xo
-Hl
-Hl
-Hl
+RN
+RN
+RN
 JU
 cJ
 Xz
@@ -28559,7 +28566,7 @@ Xo
 Xo
 VG
 VG
-jq
+RN
 JU
 oZ
 bO
